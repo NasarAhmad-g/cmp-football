@@ -308,9 +308,7 @@ a.btn{
        Responsive mobile
        ----------------------*/
        @media only screen and (max-width: 550px) {
-        body {
-          width: 100%;
-        }
+      
        
         .section-one {
             display: flex;
