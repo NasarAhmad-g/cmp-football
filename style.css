@@ -251,10 +251,60 @@ a.btn{
 
 
 
-
-
-
        /*----------------------
+       Responsive tablet
+       ----------------------*/
+       @media only screen and (max-width: 1024px) {
+       .section-one {
+        display: flex;
+        background-color: #2D25A0;
+        width: 100%;
+        justify-content: space-around;
+        height: auto;
+        margin-bottom: 150px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wrap-title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .section-two {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        grid-column-gap: 15px;
+        margin-bottom: 150px;
+    }
+
+    .section-three {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 150px;
+        flex-direction: column;
+    }
+
+    .letest-news-dis {
+        width: 70%;
+        height: auto;
+        margin-bottom: 70px;
+    }
+
+    .sponsor-area {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+   /*----------------------
        Responsive mobile
        ----------------------*/
        @media only screen and (max-width: 550px) {
@@ -339,55 +389,3 @@ a.btn{
         }
       }
 
-
-
-       /*----------------------
-       Responsive tablet
-       ----------------------*/
-       @media only screen and (max-width: 1024px) {
-       .section-one {
-        display: flex;
-        background-color: #2D25A0;
-        width: 100%;
-        justify-content: space-around;
-        height: auto;
-        margin-bottom: 150px;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .wrap-title {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 70px;
-    }
-    .section-two {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        grid-column-gap: 15px;
-        margin-bottom: 150px;
-    }
-
-    .section-three {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-bottom: 150px;
-        flex-direction: column;
-    }
-
-    .letest-news-dis {
-        width: 70%;
-        height: auto;
-        margin-bottom: 70px;
-    }
-
-    .sponsor-area {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 80px;
-        flex-direction: column;
-        text-align: center;
-    }
-}
